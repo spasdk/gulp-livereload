@@ -12,7 +12,8 @@
         "jsdoc": "jsdoc --destination doc *.js readme.md"
     },
     "dependencies": {
-        "gulp-livereload": "3.*.*"
+        "chokidar": "1.*.*",
+        "tiny-lr": "0.*.*"
     },
     "keywords": [
         "spa",
