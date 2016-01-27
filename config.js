@@ -15,15 +15,12 @@ var path     = require('path'),
 
 // main
 profiles.default = extend(true, {}, config, {
-    // listening port (0 - random)
-    port: 0,
-
-    // option to enable live reloading for different resources
-    // true value activates only specific reload instead of the whole page
-    live: {
-        css: true,
-        js:  true,
-        img: true
+    // livereload options
+    tinylr: {
+        port: 0,
+        liveCSS: true,
+        liveJs:  true,
+        liveImg: true
     },
 
     // false to prevent watch task creation

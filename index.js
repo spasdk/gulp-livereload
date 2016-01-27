@@ -32,17 +32,13 @@ plugin.profiles.forEach(function ( profile ) {
             });
         };
 
-        server = tinylr({
-            liveCSS: profile.data.live.css,
-            liveJs:  profile.data.live.js,
-            liveImg: profile.data.live.img
-        });
+        server = tinylr(profile.data.tinylr);
 
         doneCallback = done;
 
-        server.listen(profile.data.port, function () {
+        server.listen(profile.data.tinylr.port, function () {
             // port can be 0 from the start
-            profile.data.port = server.port;
+            profile.data.tinylr.port = server.port;
 
             watcher = chokidar.watch(profile.data.watch, {ignoreInitial: true});
             watcher
@@ -52,7 +48,7 @@ plugin.profiles.forEach(function ( profile ) {
 
             // report
             profile.notify({
-                info: 'start '.green + ('server on port ' + profile.data.port).bold,
+                info: 'start '.green + ('server on port ' + profile.data.tinylr.port).bold,
                 title: plugin.entry,
                 message: 'server on port ' + profile.data.port
             });
