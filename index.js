@@ -41,6 +41,9 @@ plugin.profiles.forEach(function ( profile ) {
         doneCallback = done;
 
         server.listen(profile.data.port, function () {
+            // port can be 0 from the start
+            profile.data.port = server.port;
+
             watcher = chokidar.watch(profile.data.watch, {ignoreInitial: true});
             watcher
                 .on('change', fn)

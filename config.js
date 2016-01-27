@@ -15,8 +15,8 @@ var path     = require('path'),
 
 // main
 profiles.default = extend(true, {}, config, {
-    // listening port
-    port: 'auto',
+    // listening port (0 - random)
+    port: 0,
 
     // option to enable live reloading for different resources
     // true value activates only specific reload instead of the whole page
