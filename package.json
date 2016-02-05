@@ -1,12 +1,12 @@
 {
-    "name": "spa-gulp-livereload",
+    "name": "spa-plugin-livereload",
     "version": "1.3.0",
     "description": "Communication LiveReload server.",
     "author": {
         "name": "Stanislav Kalashnik",
         "email": "darkpark.main@gmail.com"
     },
-    "repository": "spasdk/gulp-livereload",
+    "repository": "spasdk/plugin-livereload",
     "scripts": {
         "lint": "eslint *.js",
         "jsdoc": "jsdoc --destination doc *.js readme.md"
