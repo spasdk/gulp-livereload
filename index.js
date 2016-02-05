@@ -9,8 +9,8 @@
 
 var //path     = require('path'),
     tinylr   = require('tiny-lr'),
-    Plugin   = require('spa-gulp/lib/plugin'),
-    plugin   = new Plugin({name: 'livereload', entry: 'watch', context: module}),
+    Plugin   = require('spasdk/lib/plugin'),
+    plugin   = new Plugin({name: 'livereload', entry: 'watch', config: require('./config')}),
     chokidar = require('chokidar');
 
 
