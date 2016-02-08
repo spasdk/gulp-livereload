@@ -53,7 +53,7 @@ plugin.profiles.forEach(function ( profile ) {
         });
     });
 
-    profile.task('stop', function () {
+    profile.task('unwatch', function () {
         if ( server ) {
             server.close();
             watcher.close();
