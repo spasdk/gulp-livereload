@@ -46,9 +46,8 @@ plugin.profiles.forEach(function ( profile ) {
 
             // report
             profile.notify({
-                info: 'start '.green + ('server on port ' + profile.data.tinylr.port).bold,
                 title: plugin.entry,
-                message: 'server on port ' + profile.data.port
+                message: 'start server on port ' + profile.data.tinylr.port
             });
         });
     });
@@ -61,9 +60,8 @@ plugin.profiles.forEach(function ( profile ) {
 
             // report
             profile.notify({
-                info: 'stop '.green + 'server'.bold,
                 title: 'stop',
-                message: 'ok'
+                message: 'stop server'
             });
         }
     });
