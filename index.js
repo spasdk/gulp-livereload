@@ -26,7 +26,7 @@ plugin.profiles.forEach(function ( profile ) {
             // report
             profile.notify({
                 title: plugin.entry,
-                message: name
+                info: name
             });
         };
 
@@ -47,7 +47,7 @@ plugin.profiles.forEach(function ( profile ) {
             // report
             profile.notify({
                 title: plugin.entry,
-                message: 'start server on port ' + profile.data.tinylr.port
+                info: 'start server on port ' + profile.data.tinylr.port
             });
         });
     });
@@ -61,7 +61,7 @@ plugin.profiles.forEach(function ( profile ) {
             // report
             profile.notify({
                 title: 'stop',
-                message: 'stop server'
+                info: 'stop server'
             });
         }
     });
