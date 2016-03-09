@@ -17,6 +17,9 @@
         "spa-plugin": "spasdk/plugin",
         "tiny-lr": "0.*.*"
     },
+    "devDependencies": {
+        "spa-eslint-config": "spasdk/eslint-config"
+    },
     "keywords": [
         "spa",
         "spasdk",
