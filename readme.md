@@ -1,9 +1,10 @@
 Communication LiveReload server
 ===============================
 
-[![Build Status](https://img.shields.io/travis/spasdk/plugin-livereload.svg?style=flat-square)](https://travis-ci.org/spasdk/plugin-livereload)
-[![NPM version](https://img.shields.io/npm/v/spa-plugin-livereload.svg?style=flat-square)](https://www.npmjs.com/package/spa-plugin-livereload)
-[![Dependencies Status](https://img.shields.io/david/spasdk/plugin-livereload.svg?style=flat-square)](https://david-dm.org/spasdk/plugin-livereload)
+[![build status](https://img.shields.io/travis/spasdk/plugin-livereload.svg?style=flat-square)](https://travis-ci.org/spasdk/plugin-livereload)
+[![npm version](https://img.shields.io/npm/v/spa-plugin-livereload.svg?style=flat-square)](https://www.npmjs.com/package/spa-plugin-livereload)
+[![dependencies status](https://img.shields.io/david/spasdk/plugin-livereload.svg?style=flat-square)](https://david-dm.org/spasdk/plugin-livereload)
+[![devDependencies status](https://img.shields.io/david/dev/spasdk/plugin-livereload.svg?style=flat-square)](https://david-dm.org/spasdk/plugin-livereload?type=dev)
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/spasdk)
 
 
