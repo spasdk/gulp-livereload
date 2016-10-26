@@ -18,7 +18,7 @@
     "dependencies": {
         "chokidar": "1.*.*",
         "extend": "3.*.*",
-        "spa-plugin": "spasdk/plugin",
+        "spa-plugin": "1.*.*",
         "tiny-lr": "0.*.*"
     },
     "devDependencies": {
