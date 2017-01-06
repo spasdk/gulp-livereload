@@ -19,7 +19,7 @@
         "chokidar": "1.*.*",
         "extend": "3.*.*",
         "spa-plugin": "1.*.*",
-        "tiny-lr": "0.*.*"
+        "tiny-lr": "1.*.*"
     },
     "devDependencies": {
         "eslint": "3.*.*",
