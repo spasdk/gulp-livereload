@@ -25,7 +25,8 @@ profiles.default = extend(true, {}, config, {
     // otherwise array of globs to monitor
     watch: [
         path.join(config.target, '**', '*'),
-        '!' + path.join(config.target, '**', '*.md')
+        '!' + path.join(config.target, '**', '*.md'),
+        '!' + path.join(config.target, '**', '*.map')
     ],
 
     // info channels
